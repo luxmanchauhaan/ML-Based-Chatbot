@@ -1,0 +1,991 @@
+{    
+        "intents": [
+            {
+                    "tag": "greeting",
+                    "patterns": [
+                        "Hi",
+                        "How are you",
+                        "Is anyone there?",
+                        "Hello",
+                        "Good day",
+                        "Whats up",
+                        "how are ya",
+                        "heyy",
+                        "whatsup",
+                        "Hey there!",
+                        "Greetings!",
+                        "Hi, how can I assist you?",
+                        "Hey, what's going on?",
+                        "Hiya!",
+                        "Hey! How's it going?",
+                        "Good to see you!"
+                    ],
+                    "responses": [
+                        "Hello!",
+                        "Hi there, how can I help?"
+                    ]
+                    
+            },
+            {
+                    "tag": "goodbye",
+                    "patterns": [
+                        "cya",
+                        "see you",
+                        "bye bye",
+                        "See you later",
+                        "Goodbye",
+                        "I am Leaving",
+                        "Bye",
+                        "Have a Good day",
+                        "talk to you later",
+                        "tyyl",
+                        "i got to go",
+                        "gtg",
+                        "Farewell!",
+                        "Take care!",
+                        "Goodbye! Have a great day!",
+                        "Until next time!",
+                        "Bye-bye!",
+                        "Catch you later!",
+                        "Adios!",
+                        "So long!"
+                    ],
+                    "responses": [
+                        "Sad to see you go",
+                        "OK, talk to you later",
+                        "Goodbye!",
+                        "Come back soon"
+                    ],
+                    "context_set": ""
+            },    
+            {    
+                    "tag": "recognition",
+                    "patterns": [
+                        "Is it AICTE approved?",
+                        "Is your college AICTE approved?",
+                        "AICTE approved?",
+                        "what about AICTE?",
+                        "AICTE?",
+                        "All India Council for Technical Education?",
+                        "NAAC",
+                        "NAAC?",
+                        "NAAC recognition?",
+                        "Grade?",
+                        "NAAC A grade?",
+                        "NAAC A+?",
+                        "Is your college recognized by NAAC?",
+                        "National Assessment and Accrediation council?",
+                        "Is your college recognized by National Assessment and Accrediation council?",
+                        "Is your college accredited by AICTE?",
+                        "Does your college have NAAC accreditation?",
+                        "What grade does your college have from NAAC?",
+                        "Is NAAC A+ accreditation available in your college?",
+                        "Is your institution affiliated with AICTE?",
+                        "Is there AICTE recognition for your college?",
+                        "Is AICTE approval granted to your institution?",
+                        "Does your institution possess AICTE approval?",
+                        "What is the status of AICTE approval for your college?",
+                        "Is NAAC accreditation mandatory for your college?",
+                        "Can you provide information about NAAC accreditation for your institution?",
+                        "Is NAAC A grade achievable for your college?",
+                        "Is NAAC A+ grade achievable for your institution?",
+                        "Is your institution striving for NAAC accreditation?",
+                        "Does your institution comply with NAAC standards?",
+                        "What is the significance of NAAC accreditation for your college?",
+                        "Are there any benefits of AICTE recognition for your institution?",
+                        "What are the advantages of NAAC A+ accreditation for your college?",
+                        "How does NAAC accreditation impact your college's reputation?",
+                        "Is NAAC A grade recognition preferable for your college?",
+                        "Is NAAC A+ accreditation essential for your institution's growth?",
+                        "Are there any specific criteria for AICTE approval?",
+                        "What factors contribute to NAAC A grade accreditation?",
+                        "Is NAAC A+ accreditation indicative of academic excellence?",
+                        "Can you elaborate on the process of obtaining AICTE approval?",
+                        "Is there any documentation required for NAAC accreditation?",
+                        "What are the prerequisites for AICTE recognition?",
+                        "Does NAAC accreditation influence funding for your college?",
+                        "Is there any government support associated with AICTE approval?",
+                        "Are there any limitations to AICTE recognition?",
+                        "How does NAAC accreditation affect student enrollment?",
+                        "Is NAAC A grade recognition a competitive advantage for your college?",
+                        "Does AICTE approval impact curriculum development?",
+                        "Is there a timeline for NAAC accreditation process completion?",
+                        "What is the duration of AICTE approval validity?",
+                        "Is there a renewal process for NAAC accreditation?",
+                        "Are there any sanctions for not having AICTE recognition?",
+                        "Does NAAC accreditation involve site visits?",
+                        "What role does AICTE recognition play in faculty recruitment?",
+                        "Are there any penalties for not maintaining NAAC accreditation?",
+                        "Is there a fee associated with AICTE approval?",
+                        "Does NAAC accreditation require continuous improvement?",
+                        "Is there a formal assessment process for AICTE recognition?",
+                        "Are there any external evaluations involved in NAAC accreditation?",
+                        "Is there a specific timeline for NAAC accreditation review?",
+                        "What measures does your college take to maintain AICTE approval?",
+                        "Is there a grading system for NAAC accreditation?",
+                        "Does AICTE recognition affect international collaborations?",
+                        "Is there a difference between AICTE approval and NBA accreditation?",
+                        "Is there a distinction between NAAC accreditation and UGC recognition?",
+                        "Does NAAC A+ accreditation guarantee quality education?",
+                        "Is there any role of industry partnerships in AICTE approval?",
+                        "Are there any collaborations with professional bodies for NAAC accreditation?",
+                        "What is the significance of NAAC accreditation for research activities?",
+                        "Is there a correlation between AICTE approval and student placements?",
+                        "Is there a correlation between NAAC accreditation and academic autonomy?",
+                        "Are there any provisions for appeals in case of AICTE rejection?",
+                        "Is there a process for addressing grievances related to NAAC accreditation?",
+                        "Is there any financial assistance available for obtaining AICTE approval?",
+                        "Does NAAC accreditation require compliance with specific standards?",
+                        "Is there a benchmark for faculty qualifications in AICTE approval?",
+                        "What are the implications of AICTE approval on student scholarships?",
+                        "Is there any role of alumni feedback in NAAC accreditation?",
+                        "Does AICTE approval require infrastructure compliance?",
+                        "Is there any impact of AICTE recognition on student loans?",
+                        "Does NAAC accreditation affect academic collaborations?",
+                        "Is there a role of student feedback in NAAC accreditation?",
+                        "Is there a difference between AICTE approval and UGC recognition?",
+                        "Is there any role of state governments in NAAC accreditation?",
+                        "Is there a connection between AICTE approval and industry relevance?",
+                        "Is there any provision for international recognition in NAAC accreditation?",
+                        "Is there a correlation between NAAC accreditation and faculty development programs?",
+                        "Does AICTE approval ensure compliance with teaching standards?",
+                        "Is there any provision for interdisciplinary programs in NAAC accreditation?",
+                        "Is there a connection between AICTE recognition and research funding?",
+                        "Is there any role of student diversity in NAAC accreditation?",
+                        "Does AICTE approval require compliance with ethical standards?",
+                        "Is there any provision for online education in NAAC accreditation?",
+                        "Is there a role of community engagement in AICTE approval?",
+                        "Is there any provision for industry internships in NAAC accreditation?",
+                        "Does AICTE approval require compliance with environmental regulations?",
+                        "Is there any provision for innovation in teaching methods in NAAC accreditation?",
+                        "Is there a connection between AICTE recognition and technology adoption?",
+                        "Is there any role of social responsibility in NAAC accreditation?",
+                        "Does AICTE approval impact admission processes?",
+                        "Is there any provision for entrepreneurship development in NAAC accreditation?",
+                        "Is there a role of academic autonomy in AICTE approval?",
+                        "Is there any provision for academic freedom in NAAC accreditation?",
+                        "Does AICTE approval require compliance with assessment norms?",
+                        "Is there any provision for industry-academia collaboration in NAAC accreditation?",
+                        "Is there a role of research publications in AICTE approval?",
+                        "Is there any provision for outcome-based education in NAAC accreditation?",
+                        "Does AICTE approval require compliance with student welfare norms?",
+                        "Is there any provision for faculty recognition in NAAC accreditation?",
+                        "Is there a role of cultural diversity in AICTE approval?",
+                        "Is there any provision for financial aid in NAAC accreditation?"
+                    ],
+                    "responses": [
+                        "BFGI is an AICTE approved college and has NAAC A+ accreditation."
+                    ]
+                    
+            },    
+            {    
+                    "tag": "name",
+                    "patterns": [
+                        "name",
+                        "your name",
+                        "do you have a name",
+                        "what are you called",
+                        "what is your name",
+                        "what should I call you",
+                        "whats your name?",
+                        "what are you",
+                        "who are you",
+                        "who is this",
+                        "what am i chatting to",
+                        "who am i taking to",
+                        "what are you",
+                        "What should I address you as?",
+                        "Can I know your name?",
+                        "May I ask your name?",
+                        "What's your preferred name?",
+                        "Who am I chatting with?",
+                        "What's your identity?"
+                    ],
+                    "responses": [
+                        "You can call me Niaa.",
+                        "I'm Niaa",
+                        "I am a Chatbot."
+                    ]
+                    
+            },    
+            {    
+                    "tag": "hours",
+                    "patterns": [
+                        "timing of college",
+                        "what is college timing",
+                        "working days",
+                        "when are you guys open",
+                        "what are your hours",
+                        "hours of operation",
+                        "when is the college open",
+                        "college timing",
+                        "what about college timing",
+                        "is college open on saturday",
+                        "tell something about college timing",
+                        "what is the college  hours",
+                        "when should i come to college",
+                        "when should i attend college",
+                        "what is my college time",
+                        "college timing",
+                        "timing college",
+                        "What time does the college open?",
+                        "When does the college close?",
+                        "What are the working hours of the college?",
+                        "When can I visit the college?",
+                        "Is the college open on weekends?",
+                        "Could you provide me with the college hours?",
+                        "When should I be present at the college?",
+                        "What are the college timings?",
+                        "Are there any specific hours for the college?"
+                    ],
+                    "responses": [
+                        "College is open 9am-4pm Monday-Friday and off for saturday and sunday."
+                    ]
+                    
+            },    
+            {    
+                    "tag": "number",
+                    "patterns": [
+                        "more info",
+                        "contact info",
+                        "how to contact college",
+                        "college telephone number",
+                        "college number",
+                        "What is your contact no",
+                        "Contact number?",
+                        "how to call you",
+                        "College phone no?",
+                        "how can i contact you",
+                        "Can i get your phone number",
+                        "how can i call you",
+                        "phone number",
+                        "phone no",
+                        "call",
+                        "Can I have your contact information?",
+                        "How do I reach out to the college?",
+                        "What's the contact number of the college?",
+                        "May I know the phone number of the college?",
+                        "How can I contact the college?",
+                        "What's the best way to call the college?",
+                        "Is there a contact number available?"
+                    ],
+                    "responses": [
+                        "You can contact at +91 8081-100-200"
+                    ]
+                    
+            },    
+            {    
+                    "tag": "course",
+                    "patterns": [
+                        "list of courses",
+                        "list of courses offered",
+                        "list of courses offered in BFGI",
+                        "what are the courses offered in your college?",
+                        "courses?",
+                        "courses offered",
+                        "courses offered in Baba farid group of institutions?",
+                        "courses you offer",
+                        "branches?",
+                        "courses available at BFGI?",
+                        "branches available at your college?",
+                        "what are the courses in BFGI?",
+                        "what are branches in BFGI?",
+                        "what are courses in BFGI?",
+                        "branches available in BFGI?",
+                        "can you tell me the courses available in BFGI?",
+                        "can you tell me the branches available in BFGI?",
+                        "What courses does BFGI provide?",
+                        "Can you provide me with the list of courses?",
+                        "Which branches are available in BFGI?",
+                        "What are the course options in BFGI?",
+                        "Could you list the available courses?",
+                        "Tell me about the branches in BFGI.",
+                        "I'm interested in knowing the available courses.",
+                        "Are there any IT courses in BFGI?"
+                    ],
+                    "responses": [
+                        "BFGI offers more than 50 courses in different fields like: B.tech, BCA, M.TECH, MCA, BBA, MBA, B.COM, M.COM, BSC, MCS, Paramedical,  BSC Agriculture."
+                    ]
+                    
+            },
+            {
+                "tag": "fees",
+                "patterns": [
+                    "information about fee",
+                    "information on fee",
+                    "tell me the fee",
+                    "college fee",
+                    "fee per semester",
+                    "what is the fee of each semester",
+                    "what is the fees of each year",
+                    "what is fee",
+                    "what is the fees",
+                    "how much is the fees",
+                    "fees for first year",
+                    "fees",
+                    "about the fees",
+                    "tell me something about the fees",
+                    "How much does it cost for the course?",
+                    "What's the fee structure?",
+                    "Can you provide details about the fees?",
+                    "I'd like to know about the college fees.",
+                    "What are the fees per semester?",
+                    "How much do I need to pay for the first year?",
+                    "Is there any information about the fees?"
+                ],
+                "responses": [
+                    "Fee differs from cource to course, for the fee details contact at +91 8081-100-200 ."
+                ]
+                
+            },
+            {
+                "tag": "location",
+                "patterns": [
+                    "where is the college located",
+                    "college is located at",
+                    "where is college",
+                    "where is college located",
+                    "address of college",
+                    "how to reach college",
+                    "college location",
+                    "college address",
+                    "wheres the college",
+                    "how can I reach college",
+                    "whats is the college address",
+                    "what is the address of college",
+                    "address",
+                    "location",
+                    "Where exactly is the college situated?",
+                    "What's the address of the college?",
+                    "Can you give me directions to the college?",
+                    "How do I find the college location?",
+                    "Where can I locate the college?",
+                    "I need to know the college address.",
+                    "Can you guide me to the college?"
+                ],
+                "responses": [
+                    "BFGI is located at Muktsar Road (DEON) Bathinda. "
+                ]
+                
+            },
+            {
+                "tag": "hostel",
+                "patterns": [
+                    "hostel facility",
+                    "hostel servive",
+                    "hostel location",
+                    "hostel address",
+                    "hostel facilities",
+                    "hostel fees",
+                    "Does college provide hostel",
+                    "Is there any hostel",
+                    "Where is hostel",
+                    "do you have hostel",
+                    "do you guys have hostel",
+                    "hostel",
+                    "hostel capacity",
+                    "what is the hostel fee",
+                    "how to get in hostel",
+                    "what is the hostel address",
+                    "how far is hostel from college",
+                    "hostel college distance",
+                    "where is the hostel",
+                    "how big is the hostel",
+                    "distance between college and hostel",
+                    "distance between hostel and college",
+                    "Is there any hostel accommodation available?",
+                    "Can I stay in the college hostel?",
+                    "Tell me about the hostel facilities.",
+                    "What are the hostel charges?",
+                    "Where can I find the hostel?",
+                    "How far is the hostel from the college?",
+                    "Is hostel accommodation provided?"
+                ],
+                "responses": [
+                    "BFGI does provide hostel facility for both boys and girls with a beautiful infrastructure."
+                ]
+                
+            },
+            {
+                "tag": "document",
+                "patterns": [
+                    "document to bring",
+                    "documents needed for admision",
+                    "documents needed at the time of admission",
+                    "documents needed during admission",
+                    "documents required for admision",
+                    "documents required at the time of admission",
+                    "documents required during admission",
+                    "What document are required for admission",
+                    "Which document to bring for admission",
+                    "documents",
+                    "what documents do i need",
+                    "what documents do I need for admission",
+                    "documents needed",
+                    "What documents are necessary for admission?",
+                    "Can you list the required admission documents?",
+                    "Which documents should I bring for admission?",
+                    "I need information about admission documents.",
+                    "What are the necessary admission papers?"
+                ],
+                "responses": [
+                    "To know more about document required contact +91 8081-100-200"
+                ]
+                
+            },
+            {
+                "tag": "floors",
+                "patterns": [
+                    "size of campus",
+                    "building size",
+                    "How many floors does college have",
+                    "floors in college",
+                    "floors in college",
+                    "how many blocks are there in Baba farid group of institution?",
+                    "floors"
+                ],
+                "responses": [
+                    "BFGI is divided into a number of blocks. Each block is dedicated to a particular course of graduation and post-graduation."
+                ]
+                
+            },
+            {
+                "tag": "syllabus",
+                "patterns": [
+                    "what is the CSE syllabus",
+                    "syllabus",
+                    "timetable",
+                    "What is next lecture",
+                    "Can you provide the syllabus details?",
+                    "Is the syllabus available online?",
+                    "Where can I find the syllabus information?",
+                    "What does the syllabus cover?",
+                    "May I know about the timetable?",
+                    "Is the timetable accessible online?"
+                ],
+                "responses": [
+                    "Syllabus differs according to the courses. For more information about the syllabus visit the official website of the university."
+                ]
+                
+            },
+            {
+                "tag": "library",
+                "patterns": [
+                    "is there any library",
+                    "library facility",
+                    "library facilities",
+                    "do you have library",
+                    "does the college have library facility",
+                    "college library",
+                    "where can i get books",
+                    "book facility",
+                    "Where is library",
+                    "Library",
+                    "Tell me about library",
+                    "how many libraries",
+                    "Is there a library available?",
+                    "Can I access the library?",
+                    "What are the library amenities?",
+                    "I need to know about the library.",
+                    "Where can I find books?",
+                    "How many libraries are there?",
+                    "What are the library services?"
+                ],
+                "responses": [
+                    "There is one library in the campus, timings is 9am to 4pm"
+                ]
+
+            },
+            {
+                "tag": "infrastructure",
+                "patterns": [
+                    "how is college infrastructure",
+                    "infrastructure",
+                    "college infrastructure",
+                    "Tell me about the college infrastructure.",
+                    "Is the college infrastructure good?",
+                    "What's the quality of infrastructure?",
+                    "Could you describe the college infrastructure?",
+                    "I want to know about the college facilities."
+                ],
+                "responses": [
+                    "BFGI has an Excellent Infrastructure. Campus is clean. Good Labs With Good Speed of WIFI connections."
+                ]
+                
+            },
+            {
+                "tag": "canteen",
+                "patterns": [
+                    "food facilities",
+                    "canteen facilities",
+                    "canteen facility",
+                    "is there any canteen",
+                    "Is there a cafetaria in college",
+                    "Does college have canteen",
+                    "Where is canteen",
+                    "where is cafetaria",
+                    "canteen",
+                    "Cafetaria",
+                    "Can I find food inside the college?",
+                    "Tell me about the food facilities.",
+                    "Is there a canteen available?",
+                    "Where can I locate the canteen?",
+                    "I want to know about the canteen.",
+                    "Is there a cafeteria on campus?",
+                    "What are the cafeteria facilities?"
+                ],
+                "responses": [
+                    "Yes, there is a number of canteens available in the college premises."
+                ]
+                
+            },
+            {
+                "tag": "placement",
+                "patterns": [
+                    "placement",
+                    "placement cell",
+                    "placement opportunities",
+                    "placement package",
+                    "tell me about placements",
+                    "placement details",
+                    "placement record",
+                    "campus placement",
+                    "placement ratio",
+                    "how is placement",
+                    "campus placement record",
+                    "placement package",
+                    "placement report",
+                    "placement cell",
+                    "Placement cell details",
+                    "What are the placement opportunities?",
+                    "Is there a placement cell?",
+                    "Can you provide details about placements?",
+                    "Tell me about the campus placements.",
+                    "How is the placement record?",
+                    "I want to know about the placement ratio."
+                ],
+                "responses": [
+                    "BFGI has a good placement record with many students being placed in top companies."
+                ]
+                
+            },{
+                "tag": "Package",
+                "patterns": [
+                    "Package ?",
+                    "highest package?",
+                    "What about Package",
+                    "Package details?",
+                    "average package?",
+                    "Can you provide information about the package?",
+                    "Tell me about the highest package.",
+                    "What is the average package offered?",
+                    "I want to know about the placement package.",
+                    "Is there any information about the package?",
+                    "How much is the highest package?"
+                ],
+                "responses": [
+                    "Highest package of our college is 20 lakhs per annum, and average package of our college is 5.3 lakhs per annum."
+                ]
+                
+            },
+            {
+                "tag": "sem",
+                "patterns": [
+                    "exam dates",
+                    "exam schedule",
+                    "When is semester exam",
+                    "Semester exam timetable",
+                    "sem",
+                    "semester",
+                    "exam",
+                    "when is exam",
+                    "exam timetable",
+                    "exam dates",
+                    "when is semester",
+                    "Can you provide the exam schedule?",
+                    "When are the semester exams?",
+                    "I need to know about the semester exam dates.",
+                    "Where can I find the exam timetable?",
+                    "What are the semester exam dates?",
+                    "May I know about the exam schedule?"
+                ],
+                "responses": [
+                    "Check the Academic Calendar on official website. "
+                ]
+                
+            },
+            {
+                "tag": "admission",
+                "patterns": [
+                    "what is the process of admission",
+                    "what is the admission process",
+                    "How to take admission in your college",
+                    "What is the process for admission",
+                    "admission",
+                    "admission process",
+                    "How do I apply for admission?",
+                    "What are the admission procedures?",
+                    "Can you guide me through the admission process?",
+                    "I want to know about the admission process.",
+                    "What is the admission criteria?"
+                ],
+                "responses": [
+                    "Application can be submitted online or offline."
+                ]
+                
+            },
+            {
+                "tag": "facilities",
+                "patterns": [
+                    "What facilities college provide",
+                    "College facility",
+                    "What are college facilities",
+                    "facilities",
+                    "facilities provided",
+                    "Can you list the facilities provided by the college?",
+                    "Tell me about the college facilities.",
+                    "What amenities does the college offer?",
+                    "I need information about the college facilities.",
+                    "What are the available facilities?"
+                ],
+                "responses": [
+                    "BFGI provides fully AC Lab with WIFI connections, smart classrooms, Auditorium, library and canteens."
+                ]
+                
+            },
+            {
+                "tag": "college intake",
+                "patterns": [
+                    "max number of students",
+                    "number of seats per branch",
+                    "number of seats in each branch",
+                    "maximum number of seats",
+                    "maximum students intake",
+                    "What is college intake",
+                    "how many stundent are taken in each branch",
+                    "seat allotment",
+                    "seats",
+                    "Can you provide information about the college intake?",
+                    "How many students are admitted per branch?",
+                    "What is the maximum number of seats?",
+                    "I want to know about the college intake."
+                ],
+                "responses": [
+                    "There is a good availibility of seats for each course in BFGI, to know the exact number contact at +91 8081-100-200."
+                ]
+                
+            },
+            {
+                "tag": "uniform",
+                "patterns": [
+                    "college dress code",
+                    "college dresscode",
+                    "what is the uniform",
+                    "can we wear casuals",
+                    "Does college have an uniform",
+                    "Is there any uniform",
+                    "uniform",
+                    "what about uniform",
+                    "do we have to wear uniform",
+                    "Is there a dress code?",
+                    "What is the college uniform policy?",
+                    "Can I wear casual clothes?",
+                    "Tell me about the college dress code.",
+                    "Is there any uniform requirement?",
+                    "Do we need to follow a dress code?"
+                ],
+                "responses": [
+                    "BFGI do have uniform. There are two days of week onn which students have to wear the uniform ( Monday and Thursday )."
+                ]
+                
+            },
+            {
+                "tag": "committee",
+                "patterns": [
+                    "what are the different committe in college",
+                    "different committee in college",
+                    "Are there any committee in college",
+                    "Give me committee details",
+                    "committee",
+                    "how many committee are there in college",
+                    "Can you list the committees in the college?",
+                    "Tell me about the college committees.",
+                    "What committees are there in the college?",
+                    "I want to know about the committees."
+                ],
+                "responses": [
+                    "Visit campus to know about the committees."
+                ]
+                
+            },
+            {
+                "tag": "Technology",
+                "patterns": [
+                    "Is AI available in your colloege?",
+                    "AI labs?",
+                    "Artificial intelligence?",
+                    "Is there AI technology available?",
+                    "Can I find AI labs in the college?",
+                    "Tell me about the AI facilities.",
+                    "Is there any artificial intelligence technology?",
+                    "I want to know about AI availability."
+                ],
+                "responses": [
+                    "Yes, AI is available in the college with a well organized labs in running mode."
+                ]
+                
+            },
+            {
+                "tag": "University",
+                "patterns": [
+                    "Your college is affiliated from?",
+                    "Your college is affiliated from which university?",
+                    "University?",
+                    "Which university is the college affiliated with?",
+                    "Tell me about the college affiliations.",
+                    "What universities is the college associated with?",
+                    "I need to know about the college affiliations.",
+                    "Can you provide information about the college affiliations?"
+                ],
+                "responses": [
+                    "BFCET part of the college is affiliated from MAHARAJA RANJEET SINGH PUNJAB TECHNICAL UNIVERSITY(BATHINDA) and other part is recognized by PUNJABI UNIVERSITY(PATIALA) and Baba Farid school is recognized by PUNJAB SCHOOL EDUCATION BOARD."
+                ]
+                
+            },
+            {
+                "tag": "vacation",
+                "patterns": [
+                    "holidays",
+                    "when will semester starts",
+                    "when will semester end",
+                    "when is the holidays",
+                    "list of holidays",
+                    "about vacations",
+                    "about holidays",
+                    "When is vacation",
+                    "When is holidays",
+                    "how long will be the vacation",
+                    "Tell me about the holidays.",
+                    "When does the semester start?",
+                    "When does the semester end?",
+                    "Can you provide information about the holidays?",
+                    "I want to know about the vacation duration.",
+                    "What are the vacation dates?"
+                ],
+                "responses": [
+                    "Check the Academic calendar on the official website."
+                ]
+                
+            },
+            {
+                "tag": "salutation",
+                "patterns": [
+                    "okk",
+                    "okie",
+                    "nice work",
+                    "well done",
+                    "good job",
+                    "thanks for the help",
+                    "Thank You",
+                    "its ok",
+                    "Thanks",
+                    "k",
+                    "ok",
+                    "okay",
+                    "Great!",
+                    "Thanks a lot!"
+                ],
+                "responses": [
+                    "I am glad that i helped you",
+                    "Is there anything else I can assist you with?"
+                ]
+                
+            },
+            {
+                "tag": "task",
+                "patterns": [
+                    "what can you do",
+                    "what are the thing you can do",
+                    "things you can do",
+                    "what can u do for me",
+                    "how u can help me",
+                    "why i should use you",
+                    "What tasks can you perform?",
+                    "How can you assist me?",
+                    "What are your capabilities?",
+                    "Tell me about your functionalities."
+                ],
+                "responses": [
+                    "I can answer to low-intermediate questions regarding college",
+                    "You can ask me questions regarding college, and I will try to answer them"
+                ]
+                
+            },
+            {
+                "tag": "ragging",
+                "patterns": [
+                    "ragging",
+                    "is ragging practice active in college",
+                    "does college have any antiragging facility",
+                    "is there any ragging cases",
+                    "is ragging done here",
+                    "ragging juniors",
+                    "ragging history",
+                    "ragging incidents",
+                    "Tell me about ragging in the college.",
+                    "Is there any anti-ragging policy?",
+                    "Are there any ragging incidents reported?",
+                    "What is the college's stand on ragging?",
+                    "I want to know about the ragging policy."
+                ],
+                "responses": [
+                    "We are Proud to tell you that our college provides a ragging-free environment, and we have strict rules against ragging."
+                ]
+            },
+            {
+                "tag": "events",
+                "patterns": [
+                    "cultural events?",
+                    "events?",
+                    "Yearly events?",
+                    "Tell me about cultural events.",
+                    "What events are organized?",
+                    "Can you provide information about the yearly events?",
+                    "I want to know about the cultural events.",
+                    "Are there any upcoming events?"
+                ],
+                "responses": [
+                    "A number of cultural events are organized every year in our college."
+                ]
+            },
+            {
+                "tag": "transportation",
+                "patterns": [
+                    "college Van ?",
+                    "college Bus?",
+                    "transportation facility?",
+                    "Van facility?",
+                    "availability of bus facility?",
+                    "Is bus facility available in college?",
+                    "Tell me about transportation facilities.",
+                    "What transportation options are available?",
+                    "Is there a college van or bus service?",
+                    "Can you provide information about the transportation?"
+                ],
+                "responses": [
+                    "Yes, bus facility is available in our college."
+                ]
+            },
+            {
+                "tag": "Ranking",
+                "patterns": [
+                    "National ranking of college?",
+                    "Ranking?",
+                    "Position?",
+                    "Ranking of college?",
+                    "Tell me about the college ranking.",
+                    "What is the national ranking of the college?",
+                    "Can you provide information about the college ranking?",
+                    "I want to know about the college position."
+                ],
+                "responses": [
+                    "Our college stands first among all colleges of Punjab, 3rd among all colleges and universities of Punjab and 44th in all India ranking."
+                ]
+            },
+            {
+                "tag": "NCC_NSS",
+                "patterns": [
+                    "Is NCC available?",
+                    "Is NSS available?",
+                    "National Cadit corps?",
+                    "National service scheme?",
+                    "Can you tell me about NCC?",
+                    "Tell me about NSS.",
+                    "I want to know about NCC and NSS.",
+                    "Are there any NCC or NSS programs?"
+                ],
+                "responses": [
+                    "Yes, NCC and NSS are available in our college."
+                ]
+            },
+            {
+                "tag": "streams",
+                "patterns": [
+                    "various streams available for Btech in your college?",
+                    "Branches of Btech?",
+                    "Tell me about Btech streams.",
+                    "What are the branches of Btech?",
+                    "Can you list the Btech streams?",
+                    "I want to know about the Btech branches.",
+                    "What Btech streams are available?",
+                    "Btech streams ?",
+                    "streams in btech ?"
+                ],
+                "responses": [
+                    "Our college provides Btech courses in COMPUTER SCIENCE, ELECTRICAL, MECHANICAL, and CIVIL ENGINEERING."
+                ]
+            },
+            {
+                "tag": "CSE",
+                "patterns": [
+                    "cse ?",
+                    "computer science ?",
+                    "specialization in computer science ?",
+                    "Fields of cse?",
+                    "Tell me about computer science.",
+                    "What are the specializations in computer science?",
+                    "I want to know about the fields of computer science."
+                ],
+                "responses": [
+                    "COMPUTER SCIENCE is available in our college with specialization in AI-ML and IOT."
+                ]
+            },
+            {
+                "tag": "library",
+                "patterns": [
+                    "is there any library",
+                    "library facility",
+                    "library facilities",
+                    "do you have library",
+                    "does the college have library facility",
+                    "college library",
+                    "where can i get books",
+                    "book facility",
+                    "Where is library",
+                    "Library",
+                    "Tell me about library",
+                    "how many libraries",
+                    "Is there a library in the college?",
+                    "Can you tell me about the library facilities?",
+                    "I want to know about the college library.",
+                    "Are there any library facilities available?",
+                    "Tell me about the library.",
+                    "Where can I find books?",
+                    "How many libraries are there in the college?"
+                ],
+                "responses": [
+                    "There is one library in the campus, timings is 9am to 4pm"
+                ]
+                
+            },
+            {
+                "tag":" about",
+                "patterns":[
+                        "Name of the college?",
+                        "Name of your college?",
+                        "What is the name of your college ?",
+                        "Your college is known as ?",
+                        "College name ?",
+                        "Campus name ?",
+                        " What is the name of the campus ?",
+                        "What is the name of your campus ?",
+                        "May i know the name of your college?"
+                ],
+                "responses":[
+                        "Our college is known as BABA FARID GROUP OF INSTITUTIONS."
+                ]
+            }
+            
+        ]
+         
+}               
